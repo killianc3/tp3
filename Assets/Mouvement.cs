@@ -29,9 +29,5 @@ public class Mouvement : MonoBehaviour
         {
             transform.Rotate(Vector3.forward, 2);
         }
-        if (Input.GetKey(KeyCode.Space))
-        {
-            transform.Translate(Vector3.forward * 0.01f);
-        }
     }
 }
